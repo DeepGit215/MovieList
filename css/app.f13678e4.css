@@ -1,0 +1,231 @@
+header[data-v-53e8720f] {
+  width: 100%;
+  height: 5rem;
+  background-color: #1b1422;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header a[data-v-53e8720f] {
+  text-decoration: none;
+  color: #908787;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid transparent;
+}
+header h1[data-v-53e8720f] {
+  display: flex;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid transparent;
+  margin-right: 400px;
+}
+.countClass[data-v-53e8720f] {
+  font-size: 1.7rem;
+}
+@media screen and (max-width: 600px) {
+  header[data-v-53e8720f] {
+    height: 4rem;
+  }
+  .countClass[data-v-53e8720f] {
+    font-size: 1.1rem;
+  }
+  header a[data-v-53e8720f] {
+    padding: 0.5rem 0.7rem;
+  }
+  header h1[data-v-53e8720f] {
+    padding: 0.5rem 0.7rem;
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  header[data-v-53e8720f] {
+    height: 4rem;
+  }
+  .countClass[data-v-53e8720f] {
+    font-size: 1.1rem;
+  }
+  header a[data-v-53e8720f] {
+    padding: 0.5rem 0.7rem;
+  }
+  header h1[data-v-53e8720f] {
+    padding: 0.5rem 0.7rem;
+    margin-right: 200px;
+  }
+}
+a.router-link-active[data-v-53e8720f],
+a[data-v-53e8720f]:active,
+a[data-v-53e8720f]:hover {
+  border-bottom: 1px solid #e7d4e7;
+}
+header ul[data-v-53e8720f] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li[data-v-53e8720f] {
+  margin: 0 0.5rem;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+.v-dialog__content[data-v-f06f6c6a] {
+  padding: 0;
+}
+.v-card[data-v-f06f6c6a] {
+  margin: 0;
+}
+.v-card-title[data-v-f06f6c6a] {
+  font-size: 32px;
+  font-weight: 700;
+  padding: 24px;
+}
+.v-card-subtitle[data-v-f06f6c6a] {
+  font-size: 18px;
+  padding: 0 24px 16px;
+}
+.v-divider[data-v-f06f6c6a] {
+  margin: 16px 0;
+}
+.v-card-text[data-v-f06f6c6a] {
+  padding: 24px;
+}
+.subtitle-1[data-v-f06f6c6a] {
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.spinner[data-v-de557514] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.lds-roller[data-v-de557514] {
+  display: inline-block;
+  position: relative;
+  top: 300px;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div[data-v-de557514] {
+  animation: lds-roller-de557514 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div[data-v-de557514]:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #3d008d;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div[data-v-de557514]:first-child {
+  animation-delay: -36ms;
+}
+.lds-roller div[data-v-de557514]:first-child:after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div[data-v-de557514]:nth-child(2) {
+  animation-delay: -72ms;
+}
+.lds-roller div[data-v-de557514]:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div[data-v-de557514]:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div[data-v-de557514]:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div[data-v-de557514]:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div[data-v-de557514]:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div[data-v-de557514]:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div[data-v-de557514]:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div[data-v-de557514]:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div[data-v-de557514]:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div[data-v-de557514]:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div[data-v-de557514]:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div[data-v-de557514]:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div[data-v-de557514]:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller-de557514 {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+.card-container[data-v-a6045b06] {
+  transition: transform 0.3s ease;
+  width: 100%;
+  overflow: hidden;
+}
+.card-container[data-v-a6045b06]:hover {
+  transform: scale(1.05);
+}
+.footer[data-v-a6045b06] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #c4c4cb;
+}
+.container[data-v-97acd160] {
+  background-color: #ecf0f4;
+}
+.model-btn[data-v-97acd160] {
+  margin-top: 10px;
+  width: 200px;
+}
+.fancy-btn[data-v-97acd160] {
+  background: linear-gradient(315deg, #42d392 25%, #647eff);
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.hide-overflow[data-v-aae36b7c] {
+  overflow: hidden;
+}
+.not-found[data-v-ba2d9728] {
+  text-align: center;
+  margin-top: 100px;
+}
